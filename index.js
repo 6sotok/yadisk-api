@@ -1,1 +1,1 @@
-module.exports = require('./lib/core.js');
+module.exports = require('./lib/api.js');
