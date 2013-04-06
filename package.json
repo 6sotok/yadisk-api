@@ -15,6 +15,7 @@
     "dependencies": {
        "xml2json": "",
        "inherit": "",
-       "vow": ""
+       "vow": "",
+       "coa": "0.3.x"
     }
 }
