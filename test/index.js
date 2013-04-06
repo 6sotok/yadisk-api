@@ -1,4 +1,4 @@
-var Api = require('./index.js');
+var Api = require('../index.js');
 
 var api = new Api({
     login: 'testya-ya@yandex.ru',
@@ -11,7 +11,8 @@ api._request('POST', '/test?publish').then(function() {
     console.log('fail', arguments);
 });
 
-api.delete('test.pdf')
+api
+    .delete('test.pdf')
     .then(function(res) {
         console.log('deleted');
         console.log(res);
@@ -19,5 +20,13 @@ api.delete('test.pdf')
     .fail(function(err) {
         console.log('failed');
         console.log(err);
-    })
+    });
 
+var fs = require('vow-fs');
+
+var filename = 'pepyaka.jpg';
+fs.read(filename).then(function(buf) {
+    api.put('/' + filename, buf).always(function() {
+        console.log('put', arguments);
+    });
+});
