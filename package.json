@@ -16,6 +16,7 @@
        "xml2json": "",
        "inherit": "",
        "vow": "",
-       "coa": "0.3.x"
+       "coa": "0.3.x",
+       "winston": "0.6.x"
     }
 }
