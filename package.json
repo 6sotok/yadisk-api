@@ -13,9 +13,9 @@
           "node": ">=0.6"
     },
     "dependencies": {
-       "vow": "",
-       "vow-fs": "",
-       "xml2json": "",
-       "ltx": ""
+       "vow": "0.3.0",
+       "vow-fs": "0.1.x",
+       "xml2json": "0.3.x",
+       "ltx": "0.2.2"
     }
 }
