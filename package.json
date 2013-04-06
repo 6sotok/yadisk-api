@@ -5,12 +5,19 @@
     "email": "",
     "description" : "",
     "repository": "",
-    "main": "index",
+    "main": "lib/yadisk.js",
     "contributors":[
-        {"name": "Camilo Aguilar", "email": "camilo.aguilar@gmail.com"}
+        {"name": "", "email": ""}
     ],
+    "engines": {
+          "node": ">=0.6"
+    },
     "dependencies": {
        "xml2json": "",
-       "vow": ""
+       "inherit": "",
+       "vow": "",
+       "vow-fs": "",
+       "coa": "0.3.x",
+       "winston": "0.6.x"
     }
 }
