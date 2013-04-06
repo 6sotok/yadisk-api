@@ -15,6 +15,7 @@
     "dependencies": {
        "vow": "",
        "vow-fs": "",
-       "xml2json": ""
+       "xml2json": "",
+       "ltx": ""
     }
 }
