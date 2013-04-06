@@ -1,0 +1,16 @@
+{
+    "name" : "ya-disk-api",
+    "version": "0.0.1",
+    "author": "",
+    "email": "",
+    "description" : "",
+    "repository": "",
+    "main": "index",
+    "contributors":[
+        {"name": "Camilo Aguilar", "email": "camilo.aguilar@gmail.com"}
+    ],
+    "dependencies": {
+       "xml2json": "",
+       "vow": ""
+    }
+}
