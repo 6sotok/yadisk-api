@@ -22,8 +22,14 @@ api
 var fs = require('vow-fs');
 
 var filename = 'pepyaka.jpg';
-fs.read(filename).then(function(buf) {
-    api.put('/' + filename, buf).always(function() {
-        console.log('put', arguments);
+fs.read('test/' + filename).then(function(buf) {
+    return api.put('/' + filename, buf);
+}).then(function() {
+    console.log('put', arguments);
+
+    api.get('/pepyaka.jpg').then(function(buf) {
+        fs.write('test/pepyaka2.jpg', buf, 'binary').always(function() {
+            console.log('fs.write', arguments);
+        });
     });
 });
