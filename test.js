@@ -10,3 +10,14 @@ api._request('POST', '/test?publish').then(function() {
 }).fail(function() {
     console.log('fail', arguments);
 });
+
+api.delete('test.pdf')
+    .then(function(res) {
+        console.log('deleted');
+        console.log(res);
+    })
+    .fail(function(err) {
+        console.log('failed');
+        console.log(err);
+    })
+
