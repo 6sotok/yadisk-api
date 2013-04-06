@@ -16,6 +16,7 @@
        "xml2json": "",
        "inherit": "",
        "vow": "",
+       "vow-fs": "",
        "coa": "0.3.x"
     }
 }
