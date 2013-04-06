@@ -1,1 +1,1 @@
-exports = require('./lib/yadisk.js');
+module.exports = require('./lib/yadisk.js');
