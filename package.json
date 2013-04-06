@@ -16,8 +16,6 @@
        "xml2json": "0.3.x",
        "inherit": "",
        "vow": "",
-       "vow-fs": "",
-       "coa": "0.3.x",
-       "winston": "0.6.x"
+       "vow-fs": ""
     }
 }
