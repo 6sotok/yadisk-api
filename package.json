@@ -7,10 +7,14 @@
     "repository": "",
     "main": "index",
     "contributors":[
-        {"name": "Camilo Aguilar", "email": "camilo.aguilar@gmail.com"}
+        {"name": "", "email": ""}
     ],
+    "engines": {
+          "node": ">=0.6"
+    },
     "dependencies": {
        "xml2json": "",
+       "inherit": "",
        "vow": ""
     }
 }
