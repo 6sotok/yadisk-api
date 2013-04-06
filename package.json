@@ -5,7 +5,7 @@
     "email": "",
     "description" : "",
     "repository": "",
-    "main": "index",
+    "main": "lib/yadisk.js",
     "contributors":[
         {"name": "", "email": ""}
     ],
