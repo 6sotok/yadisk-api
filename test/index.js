@@ -27,8 +27,8 @@ fs.read('test/' + filename).then(function(buf) {
 }).then(function() {
     console.log('put', arguments);
 
-    api.get('/pepyaka.jpg').then(function(buf) {
-        fs.write('test/pepyaka2.jpg', buf, 'binary').always(function() {
+    api.get('/pepyaka.jpg').then(function(params) {
+        fs.write('test/pepyaka2.jpg', params.data, 'binary').always(function() {
             console.log('fs.write', arguments);
         });
     });
