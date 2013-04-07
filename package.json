@@ -7,7 +7,10 @@
     "repository": "",
     "main": "lib/api.js",
     "contributors":[
-        {"name": "", "email": ""}
+        {"name": "Dmitry Petrov", "email": "corpix@yandex-team.ru"},
+        {"name": "Denis Hananein", "email": "zloylos@yandex-team.ru"},
+        {"name": "Alex Kalmakov", "email": "alex-k@yandex-team.ru"},
+        {"name": "Anatoly Ostrovsky", "email": "megatolya@yandex-team.ru"}
     ],
     "engines": {
           "node": ">=0.6"
