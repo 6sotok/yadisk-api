@@ -18,6 +18,7 @@
        "vow": "",
        "vow-fs": "",
        "coa": "0.3.x",
-       "winston": "0.6.x"
+       "winston": "0.6.x",
+       "node-xmpp": ""
     }
 }
