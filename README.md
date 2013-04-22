@@ -7,8 +7,8 @@ npm install
 ```js
 var YaDiskAPI = require('yadisk-api'),
     mydisk = new YaDiskAPI({
-        login: mylogin@yandex.ru,
-        password: mypassword
+        login: "mylogin@yandex.ru",
+        password: "mypassword"
     }); // or your token
 
 var fs = require('vow-fs'); // for example.
