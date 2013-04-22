@@ -4,7 +4,7 @@
 npm install
 ```
 ##Using
-```(javascript)
+```js
 var YaDiskAPI = require('yadisk-api'),
     mydisk = new YaDiskAPI({
         login: mylogin@yandex.ru,
